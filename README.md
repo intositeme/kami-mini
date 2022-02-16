@@ -1,4 +1,4 @@
-# kami-mini
+# Kami Mini extruder
 
 ![Image of Extruder](https://github.com/intositeme/kami-mini/blob/bda26775a1fa7db77a850896b098d2a27c36c08c/imgs/3d.png)
 <img src="https://github.com/intositeme/kami-mini/blob/bda26775a1fa7db77a850896b098d2a27c36c08c/imgs/pht.jpg" width="400">
