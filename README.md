@@ -10,5 +10,7 @@ Heavily inspired by the [Sherpa Mini](https://github.com/Annex-Engineering/Sherp
 Same attachment spacing and filament path as the Sherpa Mini.
 
 4 heat inserts are used, based using the smaller size heat insets. 
+(**Note:** _One of the heat insets has only 2/3 of plastic around it, after installing inset, you might need to trim the plastic down to ensure that it is not interferring with the gear._)
 
 3 M3x25 screws used to hold it together.
+
