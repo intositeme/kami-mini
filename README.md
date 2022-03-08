@@ -14,4 +14,4 @@ Same attachment spacing and filament path as the Sherpa Mini.
 
 3 M3x25 screws used to hold it together.
 
-Tension lever arm might not provide enough tension, to be reworked to give a larger range of adjustment.
+**Tension lever arm might not provide enough tension, to be reworked to give a larger range of adjustment.**
