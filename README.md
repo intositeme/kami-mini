@@ -15,7 +15,7 @@ Same attachment spacing and filament path as the Sherpa Mini therefore you can r
 - 2x M3x12mm ISO 7380 button head screws
 - 3x M3x25mm ISO 7380 button head screws
 - Bondtech BMG Thumbscrew Tensioner
-- Latch Arm axis:
+- Latch Arm axle:
    - 3x20mm dowel pin
 
    or
@@ -32,20 +32,20 @@ Either scavenge the LGX or LGX lite for parts or:
 - 2x 3x16mm dowel pins
 - 1x 3x20mm dowel pin
 
+### Stepper
 1x Nema 14 36mm Pancake Stepper - 10T (T=Teeth) or 8T it's up to you, good choices are high temp models:
  - MOONS' CSE14HRA1L410A
  - LDO-36STH17-1004AHG
 
+## Notes
+The model is prepared for using 4 (+one optional for Latch Arm axle using screw instead of pin) M3x5x4 heat inserts. They can be brought in any decent 3d printing eshop (eshops selling parts for Voron usually sells these).
 
-## Assembly
-See the [assembly.md](assembly.md).
-
-## Potential gotchas
-The 4 (+one optional for arm latch axis using screw instead of pin) M3x5x4 heat inserts are used. Can be brought in any decent 3d printing eshop selling parts for Voron.
-
-Latch Arm combined with Thumbscrew Tensioner should provide enough of grip on filament. However the latch frame is quite thin (design issue) and could [break](imgs/BrokenLatchArm.jpg). Solution for that is to print it with filament enriched with CF (I am using Prusament PC CF with great success) or aneal it after printing to further improve layer bonding. Or try to print it rotated by 90° (requires supports) so the layers go perpendicular against tension force.
+Latch Arm combined with Thumbscrew Tensioner should provide enough of grip on filament. However the latch frame is thin arounfd the gearings (design issue) and could [break](imgs/BrokenLatchArm.jpg). Solution to that is to print it with filament enriched with CF (I am using Prusament PC CF with great success) or aneal it after printing to further improve layer bonding. Or try to print it rotated by 90° (requires supports) therefore the layers go perpendicular against tensioning force.
 
 ## Print Settings
 Use ABS or ASA if posssible. It depends on whever you will be using the Extruder. PLA or PETG is not suitable in enclosed chamber. Or even better use PC CF (see info above).
 The STL's are already oriented for you, so you only need to send them to the slicer.
 There is no need for supports; recommended settings are 4 perimeters/top/bottom, at least 30% infill. You might consider rotating 90° the Latch Arm to combat the issue mentioned above.
+
+## Assembly
+See the [assembly.md](assembly.md).
