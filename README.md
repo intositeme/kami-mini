@@ -40,12 +40,12 @@ Either scavenge the LGX or LGX lite for parts or:
 ## Assembly
 See the [assembly.md](assembly.md).
 
-## Notes
+## Potential gotchas
 The 4 (+one optional for arm latch axis using screw instead of pin) M3x5x4 heat inserts are used. Can be brought in any decent 3d printing eshop selling parts for Voron.
 
-Latch Arm combined with Thumbscrew Tensioner should provide enough of grip on filament. However the latch frame is quite thin (design issue) and could break. Solution is to print it with filament enriched with CF (Prusament PC CF) or aneal it after printing to further improve layer bonding. Or try to print it rotated by 90° (requires supports) so the layers go perpendicular against tension force. I did broke mine printed in ASA after couple (3-4) of filament changes: ![mine](imgs/BrokenLatchArm.jpg) I have been using latch printed with Prusament PC CF and it holds well for a while (more than 10x operations).
+Latch Arm combined with Thumbscrew Tensioner should provide enough of grip on filament. However the latch frame is quite thin (design issue) and could [break](imgs/BrokenLatchArm.jpg). Solution for that is to print it with filament enriched with CF (I am using Prusament PC CF with great success) or aneal it after printing to further improve layer bonding. Or try to print it rotated by 90° (requires supports) so the layers go perpendicular against tension force.
 
 ## Print Settings
-Use ABS or ASA if posssible. It depends on whever you will be using the Extruder. PLA or PETG is not suitable for enclosed cashber usage. Or even better use PC CF (as mentioned above).
+Use ABS or ASA if posssible. It depends on whever you will be using the Extruder. PLA or PETG is not suitable for enclosed cashber usage. Or even better use PC CF (see info  above).
 The STL's are already oriented for you, so you only need to send them to the slicer.
 There is no need for supports; recommended settings are 4 perimeters/top/bottom, at least 30% infill. You might consider rotating 90° the Latch Arm due to issue mentioned above.
