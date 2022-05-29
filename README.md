@@ -2,7 +2,7 @@
 
 ![Image of Extruder](imgs/3d.png)
 
-# A extruder using Bondtech™ LGX gears
+## An extruder using Bondtech™ LGX gears
 
 Heavily inspired by the [Sherpa Mini](https://github.com/Annex-Engineering/Sherpa_Mini-Extruder) by [Annex Engineering](https://github.com/Annex-Engineering/)
 
@@ -40,12 +40,15 @@ Either scavenge the LGX or LGX lite for parts or:
 ## Notes
 The model is prepared for using 4 (+one optional for Latch Arm axle using screw instead of pin) M3x5x4 heat inserts. They can be brought in any decent 3d printing eshop (eshops selling parts for Voron usually sells these).
 
-Latch Arm combined with Thumbscrew Tensioner should provide enough of grip on filament. However the latch frame is thin arounfd the gearings (design issue) and could [break](imgs/BrokenLatchArm.jpg). Solution to that is to print it with filament enriched with CF (I am using Prusament PC CF with great success) or aneal it after printing to further improve layer bonding. Or try to print it rotated by 90° (requires supports) therefore the layers go perpendicular against tensioning force.
+Latch Arm combined with Thumbscrew Tensioner should provide enough of grip on filament. However the latch frame is thin arounfd the gearings (design issue) and could [break](imgs/BrokenLatchArm.jpg). Solutions (in order of success):
+ - Print the Latch Arm from filament enriched with CF (I am using Prusament PC CF with great success).
+ - Aneal it after printing to further improve layer bonding.
+ - You cound try to print it rotated by 90° (requires supports) thus the layers are positioned perpendicular to tensioning force.
 
 ## Print Settings
 Use ABS or ASA if posssible. It depends on whever you will be using the Extruder. PLA or PETG is not suitable in enclosed chamber. Or even better use PC CF (see info above).
 The STL's are already oriented for you, so you only need to send them to the slicer.
-There is no need for supports; recommended settings are 4 perimeters/top/bottom, at least 30% infill. You might consider rotating 90° the Latch Arm to combat the issue mentioned above.
+There is no need for supports; recommended settings are 4 perimeters/top/bottom, at least 30% infill. You might consider rotating 90° the Latch Arm to combat the issue mentioned in [Notes](#Notes).
 
 ## Assembly
 See the [assembly.md](assembly.md).
